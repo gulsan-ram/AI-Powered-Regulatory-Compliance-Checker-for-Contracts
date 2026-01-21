@@ -7,7 +7,8 @@ clause_id,clause_type,clause_text,risk_score,severity
 3.1,SLA,3.1 Provider shall use commercially reasonable efforts to ensure 99% uptime.,20,low
 3.2,SLA,3.2 Scheduled maintenance will be notified 24 hours in advance.,10,low
 4.1,Security,4.1 Customer is responsible for login confidentiality.,20,low
-4.2,Other,4.2 Customer shall not upload harmful or unlawful data.,20,low
+4.1,Other,4.1 Customer is responsible for login confidentiality.,20,low
+4.2,Other,4.2 Customer shall not upload harmful or unlawful data.,40,medium
 5.1,Data Protection,5.1 Provider will process User Data per applicable laws.,60,medium
 5.2,Data Protection,5.2 Provider may store data on servers outside India.,80,high
 5.3,Data Protection,5.3 Customer must obtain necessary consents from end-users.,60,medium
@@ -15,7 +16,7 @@ clause_id,clause_type,clause_text,risk_score,severity
 6.2,Confidentiality,6.2 Exceptions apply where disclosure is required by law.,20,low
 7.1,Payment,7.1 Customer shall pay subscription fees as scheduled.,10,low
 7.2,Payment,7.2 Delayed payments beyond 15 days attract a 2% monthly penalty.,20,low
-8.1,IP,8.1 All rights in the Services remain with the Provider.,10,low
+8.1,IP,8.1 All rights in the Services remain with the Provider.,20,low
 8.2,IP,8.2 Customer receives no ownership rights.,10,low
 9.1,Data Protection,9.1 Provider will implement reasonable safeguards.,60,medium
 9.2,Liability,9.2 Provider is not liable for breaches caused by Customer negligence.,60,medium

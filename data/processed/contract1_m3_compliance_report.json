@@ -1,0 +1,20 @@
+{
+  "compliance_report": {
+    "total_clauses_analyzed": 29,
+    "total_issues_detected": 1,
+    "issues": [
+      {
+        "regulation": "General",
+        "issue_type": "high_risk_clause",
+        "clause_id": "5.2",
+        "clause_type": "Unknown",
+        "severity": "high",
+        "explanation": "The clause poses significant risks due to the potential transfer of data outside India, which may violate data localization requirements and compromise data security, triggering concerns under GDPR and Indian data protection regulations.",
+        "source": "risk_engine"
+      }
+    ]
+  },
+  "amended_clauses": [
+    "5.2"
+  ]
+}
